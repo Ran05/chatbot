@@ -11,10 +11,10 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey! How can I help you? :-)",
+        "Hello, thanks for visiting PRMSU, How can I help you?",
+        "Hi there,what can I do for you?",
+        "Hi there, This is PRMSU support team. How can I help?"
       ]
     },
     {
@@ -34,38 +34,25 @@
     {
       "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What are the offered courses of PRMSU Main Campus?",
+        "enrollment",
+        "What offered courses?",
+        "Courses of PRMSU Main Campus?",
+        "List of departments"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "The PRMSU main campus has eleven departments in total. Here is a list of the courses that are available: <br> <strong>GRADUATE SCHOOL</strong> <br> 1.Doctor of Education <br> 2.Doctor of Philosophy in Language Education <br> 3.Master of Arts in Education<br> Education Administration, English, Filipino, Mathematics, Science,<br>Social Studies<br>Master of Science in Agriculture<br>Animal Science<br>Crop Science"
       ]
     },
     {
       "tag": "delivery",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What academic programs and majors does your institution offer?",
+        "academic programs",
+        "What academic programs does your offer?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "The President Ramon Magsaysay State University (PRMSU) Iba Campus offers undergraduate programs in the following fields: Agriculture, Arts and Sciences, Business and Accountancy, Education, Engineering and Technology, Fisheries, Forestry and Environmental Science, Health Sciences, Hospitality Management and Tourism, Information Technology, and Computing Studies, Law Enforcement and Public Safety, Nursing and Midwifery, Social Work and Community Development"
       ]
     },
     {
@@ -78,6 +65,240 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Faq",
+      "patterns": [
+        "What academic programs and majors does your institution offer?",
+        "academic programs",
+        "institutions offer",
+        "courses offered",
+        "programs offer",
+        "What academic programs"
+      ],
+      "responses": [
+        "The President Ramon Magsaysay State University (PRMSU) Iba Campus offers undergraduate programs in the following fields: Agriculture, Arts and Sciences, Business and Accountancy, Education, Engineering and Technology, Fisheries, Forestry and Environmental Science, Health Sciences, Hospitality Management and Tourism, Information Technology, and Computing Studies, Law Enforcement and Public Safety, Nursing and Midwifery, Social Work and Community Development"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Can you provide information about scholarships or financial aid opportunities available for students?",
+        "scholarship",
+        "about scholarship",
+        "financial aid",
+        "financial aid opportunities"
+      ],
+      "responses": [
+        "President Ramon Magsaysay State University (PRMSU) provides several academic and non-academic facilities and services to students including a library, sports facilities, financial aids and/or scholarships, online courses, and distance learning opportunities, as well as administrative services1. The Scholarship and Financial Assistance Office is the primary venue of the university to help undergraduate students reach the goal of graduation by providing scholarships, grants, and financial assistance services to intellectually qualified, underprivileged, indigent but deserving students"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "Can you tell me more about the campus facilities, such as libraries, laboratories, and sports facilities?",
+        "facilities",
+        "campus facilities",
+        "more about the campus facilities",
+        "sports facilities"
+      ],
+      "responses": [
+        "President Ramon Magsaysay State University (PRMSU) provides several academic and non-academic facilities and services to students including a library, sports facilities, financial aids and/or scholarships, study abroad and exchange programs, as well as administrative services such as online course registration, online payment portal, and more. The university has a library that is open to all students and faculty members. It has a collection of books, journals, magazines, newspapers, and other reading materials that are available for borrowing or reading inside the library. The library also has computers with internet access for research purposes"
+      ]
+    },
+    {
+      "tag": "requirements",
+      "patterns": [
+        "What are the academic requirements for this program",
+        "academic requirements",
+        "What academic requirements"
+      ],
+      "responses": [
+        "I’m not sure which program you are referring to. However, you can find the academic requirements for the different programs offered by President Ramon Magsaysay State University (PRMSU) on their website. You can also contact the university directly for more information"
+      ]
+    },
+    {
+      "tag": "validity",
+      "patterns": [
+        "How long does the program take to complete?",
+        "program to complete"
+      ],
+      "responses": [
+        "I’m sorry but I couldn’t find the specific program you are referring to. Can you please provide more details about the program? I would be happy to help you find the information you need. You can also contact the university directly for more information."
+      ]
+    },
+    {
+      "tag": "curriculum",
+      "patterns": [
+        "Can you tell me more about the program curriculum and course requirements?",
+        " course requirements",
+        "about the program curriculum",
+        "program curriculum and course requirements"
+      ],
+      "responses": [
+        "I’m not sure which program you are referring to in PRMSU. However, you can visit their website at https://prmsu.edu.ph/ to see the list of programs they offer. You can also check the admission requirements and procedures for each program on their website. If you have any other questions, please let me know."
+      ]
+    },
+    {
+      "tag": "yearlyEnrolled",
+      "patterns": [
+        "How many students are accepted into the program each year?"
+      ],
+      "responses": [
+        "I’m sorry but I couldn’t find the exact number of students that are accepted into the program each year in PRMSU. However, you can visit their official website at https://www.prmsu.edu.ph/page6Admission.html for more information about their admission requirements and procedures."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "How do you ensure the safety of students on campus?"
+      ],
+      "responses": [
+        "Ensuring student safety on campus is a top priority for universities. There are several ways universities can ensure student safety on campus. Some of these include: <br> Providing adequate lighting in all areas of the campus. <br> Installing security cameras in strategic locations <br> Providing emergency phones throughout the campus <br> Providing self-defense classes for students. <br> Providing safety escorts for students who need to travel alone at night. <br> Conduct regular safety drills and training sessions for students and staff. <br> Providing mental health services for students who may be struggling with personal issues. <br> Encouraging students to report any suspicious activity or behavior."
+      ]
+    },
+    {
+      "tag": "admissionProcess",
+      "patterns": [
+        "What is the admissions process, and what are the requirements for admission?"
+      ],
+      "responses": [
+        "Admission Process: <br> Obtain an application form from the university's admissions office or website. <br> Fill out the application form and submit it with the necessary documents and application fee. <br> Wait for the university to process your application and inform you of the status of your application. <br> If accepted, follow the enrollment process, pay the necessary fees, and attend the orientation. <br> Admission Requirements: <br> A high school diploma for undergraduate programs or a bachelor's degree for graduate programs.<br> Transcript of records or official report cards showing your academic performance. <br> A certificate of good moral character from your previous school. <br> Birth certificate (original and photocopy).<br> Two recent 2x2 ID photos. <br> For transfer students, a certificate of honorable dismissal from the previous school. <br> Additional requirements may be required depending on the program you are applying for. <br> It's best to contact the admissions office of President Ramon Magsaysay State University Iba Campus to get more specific information regarding the admission requirements and process for the program you are interested in."
+      ]
+    },
+    {
+      "tag": "financialAid",
+      "patterns": [
+        "Are there any scholarships or financial aid options available for students?"
+      ],
+      "responses": [
+        "Yes, President Ramon Magsaysay State University Iba Campus offers scholarships and financial aid options to its students. You can visit their website at https://prmsu.edu.ph/ to learn more about the scholarships they offer. They have a scholarship page that lists the different scholarships available for students. You can also check their academic policies and procedures page for more information."
+      ]
+    },
+    {
+      "tag": "moreAbout",
+      "patterns": [
+        "Can you tell me more about the curriculum and the courses I will be taking?"
+      ],
+      "responses": [
+        "The curriculum and courses offered at the President Ramon Magsaysay State University (PRMSU) Iba Campus can vary depending on the specific program or field of study you are interested in pursuing. PRMSU Iba Campus is a state university located in Iba, Zambales, Philippines. It offers various undergraduate and graduate programs in fields such as agriculture, education, engineering, business, and sciences."
+      ]
+    },
+    {
+      "tag": "applicationDeadline",
+      "patterns": [
+        "What is the application deadline, and when will I receive a decision?"
+      ],
+      "responses": [
+        "I’m sorry but I couldn’t find the specific application deadline and decision date for PRMSU Iba Campus. However, you can visit their official website at https://www.prmsu.edu.ph/page6Admission.html for more information about their admission process. You can also contact the PRMSU Iba Campus Registrar’s Office through their Facebook page at https://www.facebook.com/IBACampusRegistrar/ for more information about the application deadline and decision date."
+      ]
+    },
+    {
+      "tag": "chairsOffice",
+      "patterns": [
+        "Where can I find the Program Chairs Office?",
+        "Where is the chairs office?",
+        "Can you tell me where is the office chairs located?"
+      ],
+      "responses": [
+        "At the CCIT Building Ground Level."
+      ]
+    },
+    {
+      "tag": "instructors",
+      "patterns": [
+        "How can I find my instructor in my field of study at university?",
+        "find instructors",
+        "Where is my instructors?",
+        "List of instructors"
+      ],
+      "responses": [
+        "Go to Registrar Office Building and go to Window 6."
+      ]
+    },
+    {
+      "tag": "prmsu",
+      "patterns": [
+        "what is prmsu?",
+        "prmsu"
+      ],
+      "responses": [
+        "Founded in 1910, President Ramon Magsaysay State University is a for-profit private higher education institution that offers courses and programs leading to officially recognized higher education degrees such as pre- bachelor's degrees. The acceptance rate range is 100% and international students are welcome to apply for enrollment. PRMSU also provides several academic and non-academic facilities and services to students, including a library, sports facilities, financial aid and/or scholarships, online courses and distance learning opportunities, and administrative services."
+      ]
+    },
+    {
+      "tag": "enrollment_date",
+      "patterns": [
+        "what is the date of enrollment?",
+        "date of enrollment",
+        "enrollment date"
+      ],
+      "responses": [
+        "I’m sorry but I couldn’t find the specific date of enrollment you are referring to. Can you please provide a specific year level you want to know?"
+      ]
+    },
+    {
+      "tag": "firstyear_enrollment",
+      "patterns": [
+        "what is the date of 1st year enrollment?",
+        "date of first year enrollment",
+        "enrollment first year",
+        "date"
+      ],
+      "responses": [
+        "the first year’s enrollment period is from July 24 to 28, 2023."
+      ]
+    },
+    {
+      "tag": "secondyear_enrollment",
+      "patterns": [
+        "what is the date of second year enrollment?",
+        "date of second year enrollment",
+        "enrollment second year",
+        "date"
+      ],
+      "responses": [
+        "The date of enrollment for the second year is on July 31 to August 4, 2023."
+      ]
+    },
+    {
+      "tag": "thirdyear_enrollment",
+      "patterns": [
+        "what is the date of 3rd year enrollment?",
+        "date of 3rd year enrollment",
+        "enrollment third year",
+        "date"
+      ],
+      "responses": [
+        "The enrollment schedule for the third year is on August 7 to 11, 2023."
+      ]
+    },
+    {
+      "tag": "fifthyear_enrollment",
+      "patterns": [
+        "what is the date of 4th year enrollment?",
+        "date of 4th year enrollment",
+        "enrollment third year",
+        "4th year enrollment",
+        "what is the date of 5th year enrollment?",
+        "date of 5th year enrollment",
+        "enrollment fifth year",
+        "5th year enrollment"
+      ],
+      "responses": [
+        "The enrollment schedule for the third year is on August 14 to 18, 2023."
+      ]
+    },
+    {
+      "tag": "late_enrollment",
+      "patterns": [
+      "When is the enrollment schedule for late enrollees?",
+      "late enrollees",
+      "schedule for late enrollment"
+      ],
+      "responses": [
+        "The enrollment schedule for late enrollees is August 21 to 25, 2023."
       ]
     }
   ]
