@@ -2,6 +2,10 @@
 <html lang="en">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
 
 
 <head>
@@ -10,6 +14,163 @@
 </head>
 <body>
 
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">PRMSU Chatbot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color: #fff;"></i></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, This is PRMSU Chatbot</h2>
+                <p class="hero_desc">I am a chatbot designed to answer some of your queries about the University. </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Us</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="/static/images/ccit-logo.png" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Welcome to our chatbot! The researchers, students of President Ramon Magsaysay State University under the College of Communication and Information Technology developed a chatbot to create an exceptional conversational experience. Our chatbot is designed to provide intelligent, personalized, and efficient interactions, delivering information and assistance in a user-friendly manner. Here are the researchers:
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Ronald Joseph Apostol</li>
+                                <li>Basim Sami Fathallah</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Jude Vincent Sudweste</li>
+                                <li>John Ed Romanban</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> The objective of a chatbot is to provide automated assistance and engage in conversation with users in a way that simulates human-like interaction. Chatbots are designed to understand user queries, provide relevant information, 
+                            answer questions, and perform tasks based on predefined rules, patterns, or artificial intelligence algorithms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Timely Information</h4>
+                            <p class="card-text mt-3">Our chatbot offers quick and instant answers to the user's queries. This helps users get the information or assistance they need without unnecessary delays. 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Answering your Queries</h4>
+                            <p class="card-text mt-3">Some of your questions about the University's general information that can be made public will be addressed by the chatbot. Such as, admission, mission, and vision and many more.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Automated Assistance</h4>
+                            <p class="card-text mt-3">Automated chatbots can work around the clock, providing support at all hours of the day. This is especially useful in situations where human agents might not be available, including after business hours or during periods of high traffic.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Us</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=President+Ramon+Magsaysay+State+University,+Iba,+Zambales,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemaps-made" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a><style>#g-mapdisplay img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+                </div>
+
+                <div class="list-box col-lg-6">
+                    
+                    <div class="popup">
+                        <div class="form">
+                            <h2>Contact Details:</h2>
+                            <div class="contact-details">
+                                <h4>Phone:</h4>
+                                <p>09123456789</p>
+                            </div>
+                            <div class="contact-details">
+                                <h4>PRMSU Website:</h4>
+                                <a href="https://prmsu.edu.ph/" target="_blank">prmsu.edu.ph</a>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Service Hours:</h4>
+                                <p>Monday - Friday: 8:00AM - 5:00PM</p>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location:</h4>
+                                <p>Iba, Zambales, Philippines 2201</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- div class for chatbot -->
 <div class="container">
@@ -38,6 +199,24 @@
         </div>
     </div>
 </div>
+
+  <!-- footer section-->
+  <footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+<footer id="copyright">
+    <div class="copyright mt-3">
+        <p>All Rights Reserved 2023 @PRMSU Chatbot.</p>
+    </div>
+</footer>
 
     <script>
         $SCRIPT_ROOT = {{ request.script_root|tojson }};

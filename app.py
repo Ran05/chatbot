@@ -1,8 +1,15 @@
 from flask import Flask, render_template, request, jsonify
+from flask_bootstrap import Bootstrap
 
 from chat import get_response
 
 app = Flask(__name__)
+
+def create_app():
+  app = Flask(__name__)
+  Bootstrap(app)
+
+  return app
 
 
 @app.get("/")
