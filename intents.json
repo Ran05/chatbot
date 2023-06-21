@@ -12,9 +12,12 @@
       ],
       "responses": [
         "Hey! How can I help you? :-)",
-        "Hello, thanks for visiting PRMSU, How can I help you?",
+        "Hello, thanks for visiting PRMSU Chatbot, How can I help you?",
         "Hi there,what can I do for you?",
-        "Hi there, This is PRMSU support team. How can I help?"
+        "Hi there, This is PRMSU support team. How can I help?",
+        "Good day, how can I help you",
+        "Hello! How can I assist you today?",
+        "Welcome! How may I help you?"
       ]
     },
     {
@@ -29,7 +32,7 @@
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure","No problem! Glad I could assist.","You're welcome! It's what I'm here for.","You're welcome! If you need any more help, feel free to ask."]
     },
     {
       "tag": "items",
@@ -38,18 +41,58 @@
         "enrollment",
         "What offered courses?",
         "Courses of PRMSU Main Campus?",
-        "List of departments"
+        "What courses does prmsu offer?",
+        "What courses does president ramon magsaysay state university offer?",
+        "Can you provide a list of courses offered at prmsu?",
+        "Which courses are available at prmsu?",
+        "Could you give me an overview of the courses at prmsu?",
+        "What are the available courses at prmsu?",
+        "Please tell me about the course offerings at prmsu.",
+        "I want to know what courses prmsu provides.",
+        "available courses"
       ],
       "responses": [
-        "The PRMSU main campus has eleven departments in total. Here is a list of the courses that are available: <br> <strong>GRADUATE SCHOOL</strong> <br> 1.Doctor of Education <br> 2.Doctor of Philosophy in Language Education <br> 3.Master of Arts in Education<br> Education Administration, English, Filipino, Mathematics, Science,<br>Social Studies<br>Master of Science in Agriculture<br>Animal Science<br>Crop Science"
+        " Here is a list of the courses that are available: <br> <strong>GRADUATE SCHOOL</strong> <br> 1.Doctor of Education <br> 2.Doctor of Philosophy in Language Education <br> 3.Master of Arts in Education<br> Education Administration, English, Filipino, Mathematics, Science,<br>Social Studies<br>4.Master of Science in Agriculture<br>Animal Science, Crop Science<br>Other Masteral Courses:<br>Public Administration, Business Administration, Computer Science, Technology Education<br><strong>CABA</strong><br>BS in Accountancy, BS in Accounting and Information System, BS in Business Administration Marketing, Financial Management, Human Resource Development Management, Bachelor of Public Administration<br><strong>CAS</strong><br>BS in Biology, BS in Psychology<br><strong>CCIT</strong><br>BS in Information Technology, BS in Computer Science<br><strong>CTE</strong><br>Bachelor of Secondary Education, Bachelor of Elementary Education, Bachelor of Physical Education, Certificate of Professional Teaching<br><strong>COE</strong><br>BS in Civil Engineering, BS in Electrical Engineering, BS in Mechanical Engineering, BS in Computer Engineering<br><strong>CIT</strong><br>Bachelor of Technology and Livelihood Education, Bachelor of Technical Vocational Teachers Education, BS in Industrial Technology<br><strong>CAF</strong><br>BS in Environmental Science<br><strong>CON</strong><br>BS in Nursing<br><strong>CTHM</strong><br>BS in Hospitality Management, BS in Tourism Management<br><strong>LABORATORY HIGH SCHOOL<br>Junior High School (Grade 7 to 10)."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "departments",
       "patterns": [
-        "What academic programs and majors does your institution offer?",
+        "What are the departments in PRMSU?",
+        "Can you provide me with a list of departments in PRMSU?",
+        "Could you give me an overview of the departments in PRMSU?",
+        "Please tell me about the different departments at PRMSU.",
+        "What are departments in Prmsu?",
+        "List of departments in prmsu",
+        "Prmsu departments",
+        "list of departments",
+        "Departments in prmsu",
+        "list departments",
+        "departments"
+      ],
+      "responses": [
+        "The President Ramon Magsaysay State University has a total of 11 departments, that includes; Graduate School, College of Accountancy and Business Administration, College of Arts and Sciences, College of Communication and Information Technology, College of Teacher Education, College of Engineering, College of Industrial Technology, College of Agriculture and Forestry, College of Nursing, College of Tourism and Hospitality Management, and Laboratory High School."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What are the academic programs and majors does your institution offer?",
         "academic programs",
-        "What academic programs does your offer?"
+        "What academic programs does your offer?",
+        "Prmsu academic offerings",
+        "What academic programs and majors does PRMSU offer?",
+        "Can you provide me with a list of academic programs and majors offered at PRMSU?",
+        "Could you give me an overview of the academic programs and majors available at PRMSU?",
+        "What are the study programs and majors offered by PRMSU?",
+        "Please tell me about the different academic disciplines and majors at PRMSU.",
+        "I want to know the educational programs and majors offered by PRMSU.",
+        "Are there any specific fields of study or areas of specialization at PRMSU?",
+        "prmsu educational programs",
+        "academic offerings",
+        "academic offers",
+        "program offerings",
+        "program offers"
       ],
       "responses": [
         "The President Ramon Magsaysay State University (PRMSU) Iba Campus offers undergraduate programs in the following fields: Agriculture, Arts and Sciences, Business and Accountancy, Education, Engineering and Technology, Fisheries, Forestry and Environmental Science, Health Sciences, Hospitality Management and Tourism, Information Technology, and Computing Studies, Law Enforcement and Public Safety, Nursing and Midwifery, Social Work and Community Development"
@@ -71,11 +114,22 @@
       "tag": "Faq",
       "patterns": [
         "What academic programs and majors does your institution offer?",
+        "Institution offers",
         "academic programs",
-        "institutions offer",
-        "courses offered",
-        "programs offer",
-        "What academic programs"
+        "What academic programs does your offer?",
+        "Prmsu academic offerings",
+        "What academic programs and majors does PRMSU offer?",
+        "Can you provide me with a list of academic programs and majors offered at PRMSU?",
+        "Could you give me an overview of the academic programs and majors available at PRMSU?",
+        "What are the study programs and majors offered by PRMSU?",
+        "Please tell me about the different academic disciplines and majors at PRMSU.",
+        "I want to know the educational programs and majors offered by PRMSU.",
+        "Are there any specific fields of study or areas of specialization at PRMSU?",
+        "prmsu educational programs",
+        "academic offerings",
+        "academic offers",
+        "program offerings",
+        "program offers"
       ],
       "responses": [
         "The President Ramon Magsaysay State University (PRMSU) Iba Campus offers undergraduate programs in the following fields: Agriculture, Arts and Sciences, Business and Accountancy, Education, Engineering and Technology, Fisheries, Forestry and Environmental Science, Health Sciences, Hospitality Management and Tourism, Information Technology, and Computing Studies, Law Enforcement and Public Safety, Nursing and Midwifery, Social Work and Community Development"
@@ -85,10 +139,19 @@
       "tag": "scholarship",
       "patterns": [
         "Can you provide information about scholarships or financial aid opportunities available for students?",
+        "Does PRMSU offer academic scholarships and financial support for students?",
+        "Can you provide information on academic scholarships and financial aid at PRMSU?",
+        "Could you give me an overview of the scholarships and financial support available at PRMSU?",
+        "What types of scholarships and financial aid does PRMSU offer to students?",
+        "Please tell me about the academic scholarship programs and financial assistance options at PRMSU.",
+        "I want to know if PRMSU provides any scholarships or financial support for its students.",
         "scholarship",
         "about scholarship",
         "financial aid",
-        "financial aid opportunities"
+        "financial aid opportunities",
+        "academic scholarships",
+        "overview of scholarships",
+        "scholarships overview"
       ],
       "responses": [
         "President Ramon Magsaysay State University (PRMSU) provides several academic and non-academic facilities and services to students including a library, sports facilities, financial aids and/or scholarships, online courses, and distance learning opportunities, as well as administrative services1. The Scholarship and Financial Assistance Office is the primary venue of the university to help undergraduate students reach the goal of graduation by providing scholarships, grants, and financial assistance services to intellectually qualified, underprivileged, indigent but deserving students"
@@ -98,10 +161,19 @@
       "tag": "facilities",
       "patterns": [
         "Can you tell me more about the campus facilities, such as libraries, laboratories, and sports facilities?",
+        "What facilities are available in PRMSU for students?",
+        "Can you provide information on the facilities provided to students at PRMSU?",
+        "Could you give me an overview of the student facilities at PRMSU?",
+        "What are the amenities and services provided to students at PRMSU?",
+        "Please tell me about the various facilities available for students at PRMSU.",
+        "I want to know more about the resources and infrastructure available for students at PRMSU.",
+        "Are there any specific facilities or services that PRMSU offers to their students?",
         "facilities",
         "campus facilities",
         "more about the campus facilities",
-        "sports facilities"
+        "sports facilities",
+        "prmsu facilities",
+        "prmsu infrastructures"
       ],
       "responses": [
         "President Ramon Magsaysay State University (PRMSU) provides several academic and non-academic facilities and services to students including a library, sports facilities, financial aids and/or scholarships, study abroad and exchange programs, as well as administrative services such as online course registration, online payment portal, and more. The university has a library that is open to all students and faculty members. It has a collection of books, journals, magazines, newspapers, and other reading materials that are available for borrowing or reading inside the library. The library also has computers with internet access for research purposes"
@@ -115,7 +187,7 @@
         "What academic requirements"
       ],
       "responses": [
-        "I’m not sure which program you are referring to. However, you can find the academic requirements for the different programs offered by President Ramon Magsaysay State University (PRMSU) on their website. You can also contact the university directly for more information"
+        "I'm not sure which program you are referring to. However, you can find the academic requirements for the different programs offered by President Ramon Magsaysay State University (PRMSU) on their website. You can also contact the university directly for more information"
       ]
     },
     {
@@ -125,7 +197,7 @@
         "program to complete"
       ],
       "responses": [
-        "I’m sorry but I couldn’t find the specific program you are referring to. Can you please provide more details about the program? I would be happy to help you find the information you need. You can also contact the university directly for more information."
+        "I'm sorry but I couldn't find the specific program you are referring to. Can you please provide more details about the program? I would be happy to help you find the information you need. You can also contact the university directly for more information."
       ]
     },
     {
@@ -137,22 +209,39 @@
         "program curriculum and course requirements"
       ],
       "responses": [
-        "I’m not sure which program you are referring to in PRMSU. However, you can visit their website at https://prmsu.edu.ph/ to see the list of programs they offer. You can also check the admission requirements and procedures for each program on their website. If you have any other questions, please let me know."
+        "I'm not sure which program you are referring to in PRMSU. However, you can visit their website at https://prmsu.edu.ph/ to see the list of programs they offer. You can also check the admission requirements and procedures for each program on their website. If you have any other questions, please let me know."
       ]
     },
     {
       "tag": "yearlyEnrolled",
       "patterns": [
-        "How many students are accepted into the program each year?"
+        "How many students are accepted into the program each year?",
+        "What is the limit of the number of students that prmsu accepts every year?",
+        "Prmsu total number of students",
+        "Accepted students per year",
+        "How many students?",
+        "Limit of students accepted"
       ],
       "responses": [
-        "I’m sorry but I couldn’t find the exact number of students that are accepted into the program each year in PRMSU. However, you can visit their official website at https://www.prmsu.edu.ph/page6Admission.html for more information about their admission requirements and procedures."
+        "I'm sorry but I couldn't find the exact number of students that are accepted into the program each year in PRMSU. However, you can visit their official website at https://www.prmsu.edu.ph/page6Admission.html for more information about their admission requirements and procedures."
       ]
     },
     {
       "tag": "security",
       "patterns": [
-        "How do you ensure the safety of students on campus?"
+        "How do you ensure the safety of students on campus?",
+        "Does the campus have security measures for the safety of the campus",
+        "Campus security",
+        "Prmsu security",
+        "Is prmsu safe",
+        "Campus safety",
+        "overview of security",
+        "How does PRMSU ensure the safety of students?",
+        "Can you provide information about the safety measures for students in PRMSU?",
+        "Could you give me an overview of the safety protocols and measures in place for students in PRMSU?",
+        "What steps does PRMSU take to ensure the safety of students?",
+        "Please tell me about the security measures and safety initiatives in PRMSU for students.",
+        "Are there any specific programs or services that PRMSU offers to ensure the safety of students?"
       ],
       "responses": [
         "Ensuring student safety on campus is a top priority for universities. There are several ways universities can ensure student safety on campus. Some of these include: <br> Providing adequate lighting in all areas of the campus. <br> Installing security cameras in strategic locations <br> Providing emergency phones throughout the campus <br> Providing self-defense classes for students. <br> Providing safety escorts for students who need to travel alone at night. <br> Conduct regular safety drills and training sessions for students and staff. <br> Providing mental health services for students who may be struggling with personal issues. <br> Encouraging students to report any suspicious activity or behavior."
@@ -161,7 +250,15 @@
     {
       "tag": "admissionProcess",
       "patterns": [
-        "What is the admissions process, and what are the requirements for admission?"
+        "What is the admissions process, and what are the requirements for admission?",
+        "Admission process",
+        "How do I apply for admission in PRMSU",
+        "Prmsu admission",
+        "Admission for Prmsu",
+        "What are the steps for admission in prmsu",
+        "Admission steps",
+        "Steps for admission",
+        "Admission process and requirements"
       ],
       "responses": [
         "Admission Process: <br> Obtain an application form from the university's admissions office or website. <br> Fill out the application form and submit it with the necessary documents and application fee. <br> Wait for the university to process your application and inform you of the status of your application. <br> If accepted, follow the enrollment process, pay the necessary fees, and attend the orientation. <br> Admission Requirements: <br> A high school diploma for undergraduate programs or a bachelor's degree for graduate programs.<br> Transcript of records or official report cards showing your academic performance. <br> A certificate of good moral character from your previous school. <br> Birth certificate (original and photocopy).<br> Two recent 2x2 ID photos. <br> For transfer students, a certificate of honorable dismissal from the previous school. <br> Additional requirements may be required depending on the program you are applying for. <br> It's best to contact the admissions office of President Ramon Magsaysay State University Iba Campus to get more specific information regarding the admission requirements and process for the program you are interested in."
@@ -170,28 +267,28 @@
     {
       "tag": "financialAid",
       "patterns": [
-        "Are there any scholarships or financial aid options available for students?"
+        "Are there any scholarships or financial aid options available for students?",
+        "Prmsu scholarship",
+        "Scholarship",
+        "Financial aid",
+        "Financial support",
+        "Does prmsu have educational assistance?",
+        "Does prmsu offer financial support for students?"
       ],
       "responses": [
         "Yes, President Ramon Magsaysay State University Iba Campus offers scholarships and financial aid options to its students. You can visit their website at https://prmsu.edu.ph/ to learn more about the scholarships they offer. They have a scholarship page that lists the different scholarships available for students. You can also check their academic policies and procedures page for more information."
       ]
     },
-    {
-      "tag": "moreAbout",
-      "patterns": [
-        "Can you tell me more about the curriculum and the courses I will be taking?"
-      ],
-      "responses": [
-        "The curriculum and courses offered at the President Ramon Magsaysay State University (PRMSU) Iba Campus can vary depending on the specific program or field of study you are interested in pursuing. PRMSU Iba Campus is a state university located in Iba, Zambales, Philippines. It offers various undergraduate and graduate programs in fields such as agriculture, education, engineering, business, and sciences."
-      ]
-    },
+    
     {
       "tag": "applicationDeadline",
       "patterns": [
-        "What is the application deadline, and when will I receive a decision?"
+        "What is the application deadline, and when will I receive a decision?",
+        "deadline of application",
+        "application deadline"
       ],
       "responses": [
-        "I’m sorry but I couldn’t find the specific application deadline and decision date for PRMSU Iba Campus. However, you can visit their official website at https://www.prmsu.edu.ph/page6Admission.html for more information about their admission process. You can also contact the PRMSU Iba Campus Registrar’s Office through their Facebook page at https://www.facebook.com/IBACampusRegistrar/ for more information about the application deadline and decision date."
+        "I'm sorry but I couldn't find the specific application deadline and decision date for PRMSU Iba Campus. However, you can visit their official website at https://www.prmsu.edu.ph/page6Admission.html for more information about their admission process. You can also contact the PRMSU Iba Campus Registrar’s Office through their Facebook page at https://www.facebook.com/IBACampusRegistrar/ for more information about the application deadline and decision date."
       ]
     },
     {
@@ -199,7 +296,10 @@
       "patterns": [
         "Where can I find the Program Chairs Office?",
         "Where is the chairs office?",
-        "Can you tell me where is the office chairs located?"
+        "Can you tell me where is the office chairs located?",
+        "Chairperson's office",
+        "Where is the office of program chairperson",
+        "Chairperson office"
       ],
       "responses": [
         "At the CCIT Building Ground Level."
@@ -211,17 +311,25 @@
         "How can I find my instructor in my field of study at university?",
         "find instructors",
         "Where is my instructors?",
-        "List of instructors"
+        "List of instructors",
+        "Who is my instructor",
+        "Details about my instructor",
+        "Instructor details"
       ],
       "responses": [
-        "Go to Registrar Office Building and go to Window 6."
+        "I don't have permission to provide details about instructors as PRMSU greatly respects the confidentiality and privacy of its employees. For inquiries about your instructors, go to Registrar Office Building at Window 6."
       ]
     },
     {
       "tag": "prmsu",
       "patterns": [
         "what is prmsu?",
-        "prmsu"
+        "prmsu",
+        "prmsu details",
+        "about prmsu",
+        "what is the meaning of prmsu?",
+        "prmsu meaning",
+        "meaning prmsu"
       ],
       "responses": [
         "Founded in 1910, President Ramon Magsaysay State University is a for-profit private higher education institution that offers courses and programs leading to officially recognized higher education degrees such as pre- bachelor's degrees. The acceptance rate range is 100% and international students are welcome to apply for enrollment. PRMSU also provides several academic and non-academic facilities and services to students, including a library, sports facilities, financial aid and/or scholarships, online courses and distance learning opportunities, and administrative services."
@@ -235,7 +343,7 @@
         "enrollment date"
       ],
       "responses": [
-        "I’m sorry but I couldn’t find the specific date of enrollment you are referring to. Can you please provide a specific year level you want to know?"
+        "I'm sorry but I couldn't find the specific date of enrollment you are referring to. Can you please provide a specific year level you want to know?"
       ]
     },
     {
@@ -244,10 +352,10 @@
         "what is the date of 1st year enrollment?",
         "date of first year enrollment",
         "enrollment first year",
-        "date"
+        "first year"
       ],
       "responses": [
-        "the first year’s enrollment period is from July 24 to 28, 2023."
+        "the first year's enrollment period is from July 24 to 28, 2023."
       ]
     },
     {
@@ -256,7 +364,7 @@
         "what is the date of second year enrollment?",
         "date of second year enrollment",
         "enrollment second year",
-        "date"
+        "second year"
       ],
       "responses": [
         "The date of enrollment for the second year is on July 31 to August 4, 2023."
@@ -268,7 +376,7 @@
         "what is the date of 3rd year enrollment?",
         "date of 3rd year enrollment",
         "enrollment third year",
-        "date"
+        "third year"
       ],
       "responses": [
         "The enrollment schedule for the third year is on August 7 to 11, 2023."
@@ -284,10 +392,12 @@
         "what is the date of 5th year enrollment?",
         "date of 5th year enrollment",
         "enrollment fifth year",
-        "5th year enrollment"
+        "5th year enrollment",
+        "fifth year",
+        "fourth year"
       ],
       "responses": [
-        "The enrollment schedule for the third year is on August 14 to 18, 2023."
+        "The enrollment schedule for the fourth and fifth year is on August 14 to 18, 2023."
       ]
     },
     {
@@ -295,11 +405,429 @@
       "patterns": [
       "When is the enrollment schedule for late enrollees?",
       "late enrollees",
-      "schedule for late enrollment"
+      "schedule for late enrollment",
+      "late enrollment",
+      "late enroll"
       ],
       "responses": [
         "The enrollment schedule for late enrollees is August 21 to 25, 2023."
       ]
+    },
+    {
+      "tag": "universiy_president",
+      "patterns": [
+        "Who is the university president of Prmsu?",
+        "Who is the president of Prmsu?",
+        "Prmsu president",
+        "Name of Prmsu president",
+        "who is the current president of prmsu",
+        "current president of the university",
+        "university current presidents"
+      ],
+      "responses": [
+        "The President of President Ramon Magsaysay State University is Dr. Roy N. Villalobos"
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "What is the university mission",
+        "Prmsu mission",
+        "university mission",
+        "What is the mission of Prmsu",
+        "Mission of prmsu",
+        "Mission prmsu",
+        "mission"
+      ],
+      "responses": [
+        "'The PRMSU shall primarily provide advance and higher professional, technical, and special instructions in various disciplines; undertake research, extension and income generation programs for the sustainable development of Zambales, the region and the country.' <br> This is the mission of President Ramon Magsaysay State University"
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "What is the university vision",
+        "Prmsu vision",
+        "What is the vision of Prmsu",
+        "Mission of prmsu",
+        "Mission prmsu",
+        "vision",
+        "university vision"
+      ],
+      "responses": [
+        "The vision of President Ramon Magsaysay State University is 'PRMSU shall be a premier learner-centered and proactive university in a digital and global society.'"
+      ]
+    },
+    {
+      "tag": "qualityPolicy",
+      "patterns": [
+        "What is the university quality policy",
+        "Prmsu quality policy",
+        "What is the quality policy of Prmsu",
+        "quality policy of prmsu",
+        "quality policy prmsu",
+        "quality policy",
+        "university quality policy"
+      ],
+      "responses": [
+        "President Ramon Magsaysay State University's quality policy is 'The President Ramon Magsaysay State University is committed to continually strive for excellence in instruction, research, extension and production to strenghten global competitiveness adhering to quality standards for the utmost satisfaction of its valued customers.'"
+      ]
+    },
+    {
+      "tag": "grading_system",
+      "patterns": [
+        "What is the grading system of Prmsu?",
+        "grading system",
+        "Prmsu grading system",
+        "How does the university grade their students?",
+        "University grading system",
+        "university grading",
+        "grading of university",
+        "student's grading system",
+        "students grading",
+        "What is the grading system used by PRMSU?",
+        "I'm interested in knowing how PRMSU's grading system works.",
+        "how prmsu grade",
+        "grading style of prmsu",
+        "what is the grading style of prmsu?"
+      ],
+      "responses": [
+        "The President Ramon Magsaysay State University follows a 5-Point Scale as its grading system, wherein the highest passing grade is 1.0 (99-100%), lowest passing grade is 3.0 (75-77%), and lowest grade is 5.0 which is the failing mark. 'INC' or Incomplete remark is also given if the student fails to take the final examination for valid reasons or if other course requirements are not satisfied."
+      ]
+    },
+    {
+      "tag": "student_enrollmentnization",
+      "patterns": [
+        "What are the student enrollmentnizations in Prmsu",
+        "What student enrollmentnizations are there in PRMSU?",
+        "Can you provide information about the student enrollmentnizations in PRMSU?",
+        "Prmsu student enrollmentnizations",
+        "university student enrollmentnization",
+        "student enrollmentnization",
+        "provide information prmsu student enrollmentnization",
+        "student governing bodies"
+      ],
+      "responses": [
+        "This is the list of the major student enrollmentnizations in President Ramon Magsaysay State University:<br>SSG-IBA (Supreme Student Government)<br>SBO-CABA (College of Accountancy and Business Administration)<br>SBO-CAS (College of Arts and Sciences)<br>SBO-CCIT (College of Communication and Information Technology)<br>SBO-CIT (College of Industrial Technology)<br>SBO-COE (College of Engineering)<br>SBO CON (College of Nursing)<br>SBO-CTE (College of Teacher Education)<br>SBO-CTHM (College of Tourism and Hospitality Management)<br>SBO-JHS (Junior High School)"
+      ]
+    },
+    {
+      "tag": "class_schedules",
+      "patterns": [
+        "Can you provide Prmsu class schedules?",
+        "Can you share the class schedules for PRMSU?",
+        "class schedules",
+        "What is the acadedemic calendar of prmsu?",
+        "prmsu class schedule",
+        "prmsu academic calendar"
+      ],
+      "responses": [
+        "I apologize, but as an AI language model, I don't have direct access to the class schedules for PRMSU. It would be best to reach out to PRMSU directly or visit their official website to obtain the most accurate and up-to-date class schedules. They should be able to assist you with the information you need.",
+        "Sorry, I can provide general guidance and information, but for specific and current class schedules, it's always recommended to consult the official sources or contact the university directly."
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "Does the school have an official email account?",
+        "Does prmsu have an official email account",
+        "Does the university have an official email acount",
+        "What is the official email acount of PRMSU",
+        "official email",
+        "prmsu email",
+        "school email","university email",
+        "email of prmsu","email of school"
+      ],
+      "responses": [
+       "Certainly, At the moment, PRMSU has an email account 'universitypresident@prmsu.edu.ph'"
+      ]
+    },
+    {
+      "tag": "allowed",
+      "patterns": [
+        "Is everyone allowed to apply for admission in Prmsu?",
+        "Is everyone allowed to enroll at PRMSU?",
+        "Who is eligible for admission at PRMSU?",
+        "Does PRMSU accept persons with disabilities?",
+        "Does PRMSU accept Indigenous people?",
+        "Is person with disability accepted in prmsu",
+        "Do prmsu accept indigenous people for admission"
+      ],
+      "responses": [
+       "Yes. Students shall be accepted regardless of age, sex, status, nationality, disabilities, ethnicity and religious beliefs or political affiliations. Students with special needs are provided with special facilities such as ramps and priority lanes. This is given that they comply with the admission requirements of the university. "
+      ]
+    },
+    {
+      "tag": "working_students",
+      "patterns": [
+        "I'm a working student. Can I still apply for admission at PRMSU?",
+        "Can working students apply for admission at PRMSU?","working students",
+        "I work part-time. Can I still pursue admission at PRMSU?","part time students","part timer"
+      ],
+      "responses": [
+       "Yes. Working students shall also be admitted upon submission of the admission requirements.",
+       "Working students are eligible to apply for admission at PRMSU. PRMSU may offer flexible scheduling options or part-time programs to accommodate the needs of working students. It is advised to consult the official admissions guidelines provided by PRMSU for specific information on application procedures and any provisions for working students.",
+       "PRMSU recognizes the circumstances of part-time working students and encourages their application. They may have flexible programs or support services to assist part-time working students. For specific information on the application process and available options, it is best to consult the official admissions guidelines provided by PRMSU."
+      ]
+    },
+    {
+      "tag": "admission_test",
+      "patterns": [
+        "Does PRMSU have an Admission Test?",
+        "Is there an Admission Test for PRMSU?","Admission test","prmsu admission test"
+      ],
+      "responses": [
+       "Yes. PRMSU recently started their Admission Test this year 2023."
+      ]
+    },
+    {
+      "tag": "enrolled_another",
+      "patterns": [
+        "I am enrolled in another school/university. Can I still apply for admission at PRMSU?",
+        "Can I still applly for admission in prmsu if I enrolled to other school?",
+        "If I am enorolled to another university, can I stil apply in PRMSU?"
+      ],
+      "responses": [
+       "Sadly, you must not be enrolled in another educational institution within the same period of enrollment at PRMSU."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "What are the admission requirements in Prmsu?",
+        "Admission requirements",
+        "Requirements for admission",
+        "Requirement for admission",
+        "What do i need to apply for admission in PRMSU",
+        "Apply for admission",
+        "Application for admission requirements?",
+        "What are the admission requirements for PRMSU?",
+        "Can you provide me with the admission requirements for PRMSU?",
+        "What are the prerequisites for admission to PRMSU?",
+        "Please tell me about the admission and requirements for PRMSU.",
+        "Are there any specific documents or qualifications needed for admission to PRMSU?",
+        "admission prerequisites",
+        "admission pre-requisites",
+        "documents needed for admission",
+        "admission documents",
+        "admission docs"
+      ],
+      "responses": [
+        "Admission requirements may differ depending on where students will enroll. In order to know the specific requirements, please specify what type of admission you're looking for. Here is the list of the admission types:<br>Junior High School<br>New/Beginning Freshmen (Tertiary Level)<br>Transferees<br>Returning Applicant<br>Cross Enrollee<br>Continuing Professional Education Applicant<br>Foreign Student<br>Graduate Level"
+      ]
+    },
+    {
+      "tag": "jhs",
+      "patterns": [
+        "Junior high school","admission requirements for junior high school","jhs","what are the admission requirements for junior high school",
+        "what are the admission requirements for junior high","what are the admission requirements for jhs","junior high","I'm planning to apply to Junior High School. What are the requirements?"
+      ],
+      "responses": [
+        "Certainly, Here is the list of the requirements for Junior High School: 1.Form 138 or Form 137 2.Certificate of Good Moral Character from last school attended 3.Two (2) pieces 2”x2” latest identical pictures 4.PSA authenticated copy of birth certificate 5.PSA authenticated copy of Marriage Certificate (For married female applicant) 6.PRMSU Secondary Admission Test (PRMSU SAT)"
+      ]
+    },
+    {
+      "tag": "tertiary",
+      "patterns": [
+        "College","admission requirements for college","tertiary","what are the admission requirements for freshmen",
+        "what are the admission requirements for new student","what are the admission requirements for beginning freshmen","new","tertiary level",
+        "I'm planning to apply to New/Beginning Freshmen (Tertiary Level). What are the requirements?"
+      ],
+      "responses": [
+        "Certainly, Here is the list of requirements for application of Beginning Freshmen or New student: 1.Form 138 of Form 137 2.Certificate of Good Moral Character from last school attended 3.Two (2) pieces 2x2 inchess latest identical pictures 4.PSA authenticated copy of birth certificate 5.PSA authenticated copy of Marriage Certificate For married female applicant 6.Medical Certificate from authorized Health Officer."
+      ]
+    },
+    {
+      "tag": "transferee",
+      "patterns": [
+        "I'm a transferee. What are the requirements for admission?",
+        "What is the requirements for transferee?",
+        "transferee requirements",
+        "How do I apply if transferee in PRMSU",
+        "Prmsu transferee",
+        "transferee for Prmsu",
+        "What are the requirements for transferee in prmsu",
+        "transferee requirements",
+        "transferee",
+        "admission for transferee"
+      ],
+      "responses": [
+        "Certainly, If you are a transferee planning to apply for admission at PRMSU, here is the list of requirements you need: 1.Transfer Credential / Honorable Dismissal 2.Official Transcript of Record / Copy of Grades duly signed by the Campus Registrar 3.Certificate of Good Moral Character from the last school attended 4.PRSMU College Admission Test (PRMSU  CAT) (If applicable) 5.Admission of transferees is subject to the availability of a slot in the college one wants to enroll 6.Original PSA Birth Certificate 7.Original PSA Marriage Certificate for married female applicant"
+      ]
+    },
+    {
+      "tag": "returning",
+      "patterns": [
+        "returning applicant","admission requirements for returning applicant","returning","what are the admission requirements for returning applicant",
+        "what are the admission requirements for returning","I'm a returning applicant. What are the requirements for applying for admission?"
+      ],
+      "responses": [
+        "Certainly, If you are a returning applicant, here is the list of requirements you're going to need: 1.Fully accomplished application for Re-Admission Form 2.Updated Evaluation of Grades 3.Approved LOA/residency form 4.Original PSA Birth Certificate 5.Original PSA Marriage Certificate for married female applicant"
+      ]
+    },
+    {
+      "tag": "cross-enroll",
+      "patterns": [
+        "cross-enrollee","admission requirements for cross-enrolly","cross enrolly","what are the admission requirements for cross-enrolly",
+        "what are the admission requirements for cross enrollee","cross enrollment","I'm a cross-enrollee. What are the requirements for applying for admission?"
+      ],
+      "responses": [
+        "Certainly, If you are a returning applicant, here is the list of requirements you're going to need: 1.Fully accomplished application for Re-Admission Form 2.Updated Evaluation of Grades 3.Approved LOA/residency form 4.Original PSA Birth Certificate 5.Original PSA Marriage Certificate for married female applicant"
+      ]
+    },
+    {
+      "tag": "continuing",
+      "patterns": [
+        "continuing professional education","admission requirements for continuing professional education","continuing professional","what are the admission requirements for continuing professional",
+        "what are the admission requirements for professional education","continuing","I'm a continuing professional education applicant. What are the requirements for applying for admission?",
+        "continuing professional applicant"
+      ],
+      "responses": [
+        "Certainly, If you are a continuing professional education applicant, here is the list of requirements you're going to need: 1.Fully Accomplished Cross Enrolment Application Form 2.Cross Enrolment Certification/Form from the mother institution signed by the Registrar and/or Dean 3.Original PSA Birth Certificate 4.Original PSA Marriage Certificate for married female applicant 5.Two (2) pieces 2”x2” latest identical pictures."
+      ]
+    },
+    {
+      "tag": "foreign",
+      "patterns": [
+        "foreign applicant","admission requirements for foreign applicant","foreign student","what are the admission requirements for foreign students",
+        "what are the admission requirements for foreigner","foreign","Im a foreign student applicant. What are the requirements for applying for foreign admission?",
+        "foreign"
+      ],
+      "responses": [
+        "Certainly, If you are a continuing professional education applicant, here is the list of requirements you're going to need: 1.Transcript of Scholastic Record 2.PRSMU College Admission Test (PRMSU - CAT) (If applicable) 3.Personal History Statement 4.Student Visa/Special Study Permit 5.Affidavit of Support 6.Alien Certificate Registration 7.Result of TOEFL or any recognized Test of English Proficiency (for non-English speaking students) 8.Must meet all the prescribed requirements by the DFA and the BIC."
+      ]
+    },
+    {
+      "tag": "units",
+      "patterns": [
+        "What is the total number of units students may register?",
+        "total number of units to register",
+        "total units of students",
+        "total units to take",
+        "units limit",
+        "what is the limit of units student can take"
+      ],
+      "responses": [
+        "The total number of units for which a student may register shall be in accordance with the curricular program the student is enrolled in."
+      ]
+    },
+    {
+      "tag": "pre-requisite",
+      "patterns": [
+        "Can I skip prerequisite subjects?",
+        "Am I allowed to skip prerquisite subjects"
+      ],
+      "responses": [
+        "Enrolling in and attendance in a subject without passing its prerequisites shall earn the student no academic credit."
+      ]
+    },
+    {
+      "tag": "pre-requisite-advanced",
+      "patterns": [
+        "Am I allowed to simultaneously enroll in prerequisites and advanced classes?",
+        "Can I enroll in prerequisites and advanced classes at the same time?",
+        "Is it possible to take both prerequisites and advanced classes concurrently at PRMSU?"
+      ],
+      "responses": [
+        "Yes, but in certain conditions;<br>When the pre-requisite is a repeated subject, When the student has a superior scholastic standing, When the student is graduating at the end of the school term, When it is approved by the Dean of the College of the Program chairperson in the case of satellite campuses."
+      ]
+    },
+    {
+      "tag": "change_add",
+      "patterns": [
+        "Can I still change/add subjects after enrollment?", 
+        "Can I still change or add subjects after enrollment?",
+        "Is it possible to modify or add subjects after the enrollment process?",
+        "add subject",
+        "subject adding",
+        "modify subject",
+        "Am I allowed to make changes to my enrolled subjects or add new subjects?",
+        "change subject"
+      ],
+      "responses": [
+        "Yes. A student may be allowed to change and add subjects within two weeks from the first day of classes during the semester, or within the first three days of classes during the mid-year class."
+      ]
+    },
+    {
+      "tag": "drop",
+      "patterns": [
+       "Can I drop subjects?",
+       "dropping of subject",
+       "Am I allowed to drop subjects?",
+       "drop subjects"
+      ],
+      "responses": [
+        "Yes. Dropping of subjects shall be allowed before the midterm. However, an unofficial dropping of the subject will mean a grade of 5.0."
+      ]
+    },
+    {
+      "tag": "test_result",
+      "patterns": [
+       "I'm done taking my entrance exam, where can I find the result?",
+       "Where can I find the result of my entrance exam after completing it?","exam results","entrance exam results"
+      ],
+      "responses": [
+        "If you're done taking the entrance exam, you may visit the Student Services and Quality Assurance Building 3rd floor for the result. Kindly bring the official receipt and a copy of your Form 138 1st and 2nd quarter grades."
+      ]
+    },
+    {
+      "tag": "online application",
+      "patterns": [
+        "How to apply for online application admission at PRMSU?",
+        "prmsu online admission aplication",
+        "online admission"
+      ],
+      "responses": [
+        "For online application for admission, the first step is to:<br>1.Visit the PRMSU Official Website (Website URL: www.prmsu.edu.ph).<br>2.Select ONLINE ENROLLMENT in the Main Menu.<br>3.Select the “Campus you intend to apply for admission”.<br>4.Tap/Click the ADMISSION BUTTON.<br>5.Click the NEW APPLICANT CHECKBOX (The system will generate a CONTOL NUMBER which will be used in viewing the status of your online application.<br>6.Fill out all the details/data required for the online application.<br>7.Upload the required and appropriate documents. Click UPDATE. (Documents should be in JPEG.<br>8.Check the “STATUS of your online application by visiting the OAES and key in your CONTROL NUMBER. Press ENTER. (If status is APPROVED, then submit your ORIGINAL ADMISSION REQUIREMENTS. If the status is DISAPPROVED, then REAPPLY. If the status is NO ACTION TAKEN, then the application is still being evaluated. If the status is PENDING, call the concerned college’s attention."
+      ]
+    },
+    {
+      "tag": "rules_uniform",
+      "patterns": [
+        "Can I wear civilian clothes when attending classes?","What is the dress code for attending classes?",
+        "dress code","civilian clothes allowed","Are there rules about uniforms?","Is uniforms required","uniforms","uniform rules"
+      ],
+      "responses": [
+        "All students must wear the prescribed uniform. Men students must wear White Polo, black pants, and black formal shoes. Females must wear blue skirt with one inch below the knee cut/ or slacks, white blouses with necktie, and black formal shoes. However, Friday is the prescribed “WASH DAY”. Students must wear the enrollmentnization/college shirt."
+      ]
+    },
+    {
+      "tag": "rules_haircut",
+      "patterns": [
+        "Can I keep my hair long?",
+        "Is there a specific rule on hair length for students?",
+        "haircut rules"
+      ],
+      "responses": [
+        "All students must wear the prescribed uniform. Men students must wear White Polo, black pants, and black formal shoes. Females must wear blue skirt with one inch below the knee cut/ or slacks, white blouses with necktie, and black formal shoes. However, Friday is the prescribed “WASH DAY”. Students must wear the enrollmentnization/college shirt."
+      ]
+    },
+    {
+      "tag": "rules_id",
+      "patterns": [
+        "Can I enter the school without my ID?",
+        "Are students required to have their IDs with them to access the school?",
+        "id rules",
+        "id required",
+        "about id"
+      ],
+      "responses": [
+        "The university strictly implements the NO ID, NO ENTRY Policy. However, provisions may apply for the following conditions:<br>1. In case a student failed to present their ID, the Certificate of Registration must be presented to the security personnel. The guard on duty shall affix their signature at the back of the COR for monitoring purposes.<br>2. Loss of ID shall be reported to the Office of the Registrar together with the notarized affidavit of loss. The registrar will then issue a temporary pass while waiting for the new ID. "
+      ]
+    },
+    {
+      "tag": "grade_access",
+      "patterns": [
+        "How can I view my grades and academic records?",
+        "Is there online platforms to see my grades",
+        "view my grade",
+        "see my grades",
+        "academic records"
+      ],
+      "responses": [
+        "Any of your academic records are accessible through PRMSU SIAS 3 at https://icloudph.com/prmsu-main/sias/. Login by entering your user-id and password by clicking the 'Student' button, login using your username and password, and then select the 'Reports' tab from the navigation bar."
+      ]
     }
   ]
 }
+
